@@ -1,0 +1,15 @@
+E:\Programming\C# projects\Library_ConsoleApp\Library_ConsoleApp\bin\Debug\net8.0\Library_ConsoleApp.exe
+E:\Programming\C# projects\Library_ConsoleApp\Library_ConsoleApp\bin\Debug\net8.0\Library_ConsoleApp.deps.json
+E:\Programming\C# projects\Library_ConsoleApp\Library_ConsoleApp\bin\Debug\net8.0\Library_ConsoleApp.runtimeconfig.json
+E:\Programming\C# projects\Library_ConsoleApp\Library_ConsoleApp\bin\Debug\net8.0\Library_ConsoleApp.dll
+E:\Programming\C# projects\Library_ConsoleApp\Library_ConsoleApp\bin\Debug\net8.0\Library_ConsoleApp.pdb
+E:\Programming\C# projects\Library_ConsoleApp\Library_ConsoleApp\obj\Debug\net8.0\Library_ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programming\C# projects\Library_ConsoleApp\Library_ConsoleApp\obj\Debug\net8.0\Library_ConsoleApp.AssemblyInfoInputs.cache
+E:\Programming\C# projects\Library_ConsoleApp\Library_ConsoleApp\obj\Debug\net8.0\Library_ConsoleApp.AssemblyInfo.cs
+E:\Programming\C# projects\Library_ConsoleApp\Library_ConsoleApp\obj\Debug\net8.0\Library_ConsoleApp.csproj.CoreCompileInputs.cache
+E:\Programming\C# projects\Library_ConsoleApp\Library_ConsoleApp\obj\Debug\net8.0\Library_ConsoleApp.sourcelink.json
+E:\Programming\C# projects\Library_ConsoleApp\Library_ConsoleApp\obj\Debug\net8.0\Library_ConsoleApp.dll
+E:\Programming\C# projects\Library_ConsoleApp\Library_ConsoleApp\obj\Debug\net8.0\refint\Library_ConsoleApp.dll
+E:\Programming\C# projects\Library_ConsoleApp\Library_ConsoleApp\obj\Debug\net8.0\Library_ConsoleApp.pdb
+E:\Programming\C# projects\Library_ConsoleApp\Library_ConsoleApp\obj\Debug\net8.0\Library_ConsoleApp.genruntimeconfig.cache
+E:\Programming\C# projects\Library_ConsoleApp\Library_ConsoleApp\obj\Debug\net8.0\ref\Library_ConsoleApp.dll

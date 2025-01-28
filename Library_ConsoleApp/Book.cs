@@ -19,6 +19,9 @@ namespace Library_ConsoleApp
             this.isLend = isLend;
         }
 
-
+        public override string ToString()
+        {
+            return $"{title} by {author} - {(isLend ? "Borrowed" : "Available")}";
+        }
     }
 }

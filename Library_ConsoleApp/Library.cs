@@ -8,7 +8,7 @@ namespace Library_ConsoleApp
 {
     internal class Library
     {
-        List<Book> books = new List<Book>();
+        public List<Book> books = new List<Book>();
 
         public void AddBook(Book book)
         {
@@ -17,23 +17,57 @@ namespace Library_ConsoleApp
 
         public void LendBook(string title)
         {
+            bool found = false; 
+
             foreach (Book book in books)
             {
-                if(book.title.ToLower() == title.ToLower())
+                if (book.title.ToLower() == title.ToLower())
                 {
-                    book.isLend = true;
+                    if (!book.isLend)
+                    {
+                        book.isLend = true;
+                        Console.WriteLine($"{title} is now on loan.");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"{title} is already on loan.");
+                    }
+                    found = true; 
+                    break; 
                 }
+            }
+
+            if (!found)
+            {
+                Console.WriteLine($"{title} couldn't be found in the library.");
             }
         }
 
         public void ReturnBook(string title)
         {
+            bool found = false;
+
             foreach (Book book in books)
             {
                 if (book.title.ToLower() == title.ToLower())
                 {
-                    book.isLend = false;
+                    if (book.isLend)
+                    {
+                        book.isLend = false;
+                        Console.WriteLine($"{title} has been returned.");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"{title} was not on loan.");
+                    }
+                    found = true;
+                    break;
                 }
+            }
+
+            if (!found)
+            {
+                Console.WriteLine($"{title} couldn't be found in the library.");
             }
         }
 
@@ -41,7 +75,7 @@ namespace Library_ConsoleApp
         {
             foreach (Book book in books)
             {
-                Console.WriteLine($"{book.title} by {book.author} - is currently lend ? : {book.isLend}");
+                Console.WriteLine($"{book}");
             }
         }
 

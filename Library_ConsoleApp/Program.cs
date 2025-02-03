@@ -18,6 +18,7 @@ namespace Library_ConsoleApp
             while (true)
             {
                 Console.Clear();
+                Console.WriteLine("==== Welcome to Library Console App ====\n");
                 List<string> menu = new List<string>
                 {
                      "1. Add Book",

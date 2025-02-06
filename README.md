@@ -1,4 +1,4 @@
-# Heading Library Console App
+# Library Console App
 This is a simple console-based library application that allows users to manage books efficiently. The application includes the following features:
 
 Add Books – Users can add new books to the library database:
